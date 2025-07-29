@@ -1,0 +1,115 @@
+*{
+margin: 0px;
+font-family: "inter"}
+
+#logo{
+    margin-left: 125px;
+    margin-top: 62px;
+}
+#titulo-menu-sup{
+    margin-left: 536px;
+    margin-top: 102px;
+}
+#texto-menu-sup{
+    margin-left: 536px;
+    margin-top: 90px;
+}
+#menu-superior{
+background-image: url(imagens/imagemtopo.svg);
+background-size: cover;
+color: aliceblue;
+}
+#menu-informacional{
+    background-color:#EAECE5;
+    display:grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+.icone{
+  margin: 40px 0px 40px 40px;
+  padding: 25px;
+}
+.textoinformativo{
+    display: flex;
+    align-items: center;
+    margin: 40px 0px 40px 40px;
+}
+#depoimento{
+display: grid;
+grid-auto-flow: column;
+columns: auto;}
+
+#titulo-depoimento{
+    margin-top: 50px;
+    color:#247BA0;
+}
+#video{
+    margin: 50px 0px 50px 100px;  
+}
+#carrosel{
+    background-color: #247BA0;
+    padding: 50px;
+}
+#titulo-carrosel{
+    color: #EAECE5;
+    text-align: center;
+    font-size: 25px;
+}
+#cards{
+    margin-top: 25px;
+    display: grid;
+    grid-auto-flow: column;
+}
+#card{
+    margin-left: 500px;
+}
+#seta-esquerda{
+    display: none;
+}
+#bruna{
+    display: none;
+}
+#seta-direita{
+    display: flex;
+}
+.seta{
+    cursor: pointer;
+    margin-top: 30%;
+    margin-left: -50px;
+}
+.seta:hover{
+    transition-duration: 0.5s;
+    transform: translateY(-7px);}
+#formulario{
+    text-align: center;
+    font-size: 25px;
+    
+}
+#titulo-formulario{
+    color: #383838;
+    margin: 25px;
+}
+input{
+    width: 300px;
+    height: 30px;
+    padding-left: 10px;
+    border: 0px;
+    border-radius: 5px;
+    background-color:#EAECE5 ;
+}
+#botao1{
+    background-color: #247BA0;
+    border-radius: 5px;
+    border: 0px;
+    width:200px ;
+    height: 30px;
+    font-weight: bolder;
+    color: #EAECE5;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+#botao1:hover{
+background-color: rgb(75, 75, 231);
+transition-duration: 0.5s;
+transform:scale(1.5);
+}
